@@ -1,0 +1,15 @@
+C:\Users\E5470\source\Batch#20\VBAppConsole\bin\Debug\net6.0\VBAppConsole.exe
+C:\Users\E5470\source\Batch#20\VBAppConsole\bin\Debug\net6.0\VBAppConsole.deps.json
+C:\Users\E5470\source\Batch#20\VBAppConsole\bin\Debug\net6.0\VBAppConsole.runtimeconfig.json
+C:\Users\E5470\source\Batch#20\VBAppConsole\bin\Debug\net6.0\VBAppConsole.dll
+C:\Users\E5470\source\Batch#20\VBAppConsole\bin\Debug\net6.0\VBAppConsole.pdb
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.vbproj.AssemblyReference.cache
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.AssemblyInfoInputs.cache
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.AssemblyInfo.vb
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.vbproj.CoreCompileInputs.cache
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.dll
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\refint\VBAppConsole.dll
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.pdb
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\VBAppConsole.genruntimeconfig.cache
+C:\Users\E5470\source\Batch#20\VBAppConsole\obj\Debug\net6.0\ref\VBAppConsole.dll

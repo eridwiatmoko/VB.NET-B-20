@@ -1,6 +1,5 @@
 ﻿Namespace PartTwo
     Public Class Employee
-        'private hanya bisa diakses getset(method)
         Private _empId As Integer
         Private _firstName As String
         Private _lastName As String
@@ -11,9 +10,7 @@
 
         'default constructor
         Public Sub New()
-
         End Sub
-
 
         'create constructor
         Public Sub New(empId As Integer, firstName As String, lastName As String, joinDate As Date, basicSalary As Double)
@@ -25,13 +22,23 @@
             _totalSalary = basicSalary
         End Sub
 
-        Public Sub New(firstName As String, lastName As String, joinDate As Date, basicSalary As Double)
+        Public Sub New(firstName As String, lastName As String, joinDate As Date,
+                       basicSalary As Double)
             _empId = New Random().NextInt64(1, 10) '_id
             _firstName = firstName
             _lastName = lastName
             _joinDate = joinDate
             _basicSalary = basicSalary
             _totalSalary = basicSalary
+        End Sub
+
+
+        Public Overloads Sub UpSalary(nominal As Double, pph As Double)
+
+        End Sub
+
+        Public Overloads Sub UpSalary(nominal As Double, pph As String, discount As Double)
+
         End Sub
 
         Public Property EmpId As Integer
@@ -70,14 +77,21 @@
             End Set
         End Property
 
-        Public Overridable BasicSalary As Double
-        Get
+        Public Overridable Property BasicSalary As Double
+            Get
                 Return _basicSalary
             End Get
             Set(value As Double)
                 _basicSalary = value
+
             End Set
         End Property
+
+        Public Overridable Sub SetTotalSalary()
+
+            Console.WriteLine("Learn C# Tutorial")
+
+        End Sub
 
         Public Property TotalSalary As Double
             Get
@@ -89,8 +103,7 @@
         End Property
 
         Public Overrides Function ToString() As String
-            Return $"EmpId : {_empId}, firstName : {_firstName}, lastName : {_lastName}, joinDate : {_joinDate}, basicSalary : {_basicSalary}"
+            Return $"EmpId : {Me.EmpId}, firstName : {FirstName},lastName : {LastName},joinDate : {JoinDate}, basicSalary : {BasicSalary}"
         End Function
     End Class
 End Namespace
-

@@ -17,6 +17,10 @@ Namespace PartTwo
             'create object programmer
             Dim emp3 As New Programmer("Widi", "Amalia", DateAndTime.Now, 5_600, 100)
             Console.WriteLine(emp3.ToString())
+
+            emp3.BasicSalary = 6_000
+
+            Console.WriteLine(emp3.ToString())
         End Sub
 
     End Module
